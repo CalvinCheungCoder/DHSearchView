@@ -26,7 +26,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     DHSearchViewController *search = [[DHSearchViewController alloc]init];
-    search.tagsArray = @[@"好利网",@"小微金融",@"发薪贷",@"陆金所",@"人人利",@"去哪贷",@"好利网",@"黄金所"];
+    search.tagsArray = @[@"好利网",@"小微金融小微金融小微金融小微金融小微金融",@"发薪贷小微金融小微金融",@"陆金所小微金融",@"人人利小微金融小微金融",@"去哪贷",@"好利网",@"黄金所小微金融小微金融小微金融"];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:search];
     [self presentViewController:nav animated:YES completion:nil];
 }
